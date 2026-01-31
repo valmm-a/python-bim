@@ -1,0 +1,8 @@
+pages = 100
+line = 50
+symbols = 25
+symbol_size = 4
+space = 1.44 #mb
+books = int(space * 1024 * 1024 / (pages * line * symbols * symbol_size))
+
+print('Количество книг, помещающихся на дискету:', books)
